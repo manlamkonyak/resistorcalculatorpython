@@ -1,0 +1,166 @@
+option1 = input("Choose the First Colour\n"
+                "0. Black\n"
+                "1. Brown\n"
+                "2. Red \n"
+                "3. Orange\n"
+                "4. Yellow\n"
+                "5. Green\n"
+                "6. Blue\n"
+                "7. Violet\n"
+                "8. Grey\n"
+                "9. White\n")
+
+option2 = input("Choose the First Colour\n"
+                "0. Black\n"
+                "1. Brown\n"
+                "2. Red \n"
+                "3. Orange\n"
+                "4. Yellow\n"
+                "5. Green\n"
+                "6. Blue\n"
+                "7. Violet\n"
+                "8. Grey\n"
+                "9. White\n")
+
+option3 = input("Choose the First Colour\n"
+                "0. Black\n"
+                "1. Brown\n"
+                "2. Red \n"
+                "3. Orange\n"
+                "4. Yellow\n"
+                "5. Green\n"
+                "6. Blue\n"
+                "7. Violet\n"
+                "8. Grey\n"
+                "9. White\n")
+
+Black, Brown, Red, Orange, Yellow = 0, 1, 2, 3, 4
+Green, Blue, Violet, Grey, White = 5, 6, 7, 8, 9
+################################################
+if option1 == '0':
+    print(option2)
+    a = []
+    a.append(Black)
+elif option1 == '1 ':
+    print(option2)
+    b = []
+    b.append(Brown)
+elif option1 == '2':
+    print(option2)
+    c = []
+    c.append(Red)
+elif option1 == '3':
+    print(option2)
+    d = []
+    d.append(Orange)
+elif option1 == '4':
+    print(option2)
+    e = []
+    e.append(Yellow)
+elif option1 == '5':
+    print(option2)
+    f = []
+    f.append(Green)
+elif option1 == '6':
+    print(option2)
+    g = []
+    g.append(Blue)
+elif option1 == '7':
+    print(option2)
+    h = []
+    h.append(Violet)
+elif option1 == '8':
+    print(option2)
+    i = []
+    i.append(Grey)
+elif option1 == '9':
+    print(option2)
+    j = []
+    j.append(White)
+
+
+####################################
+
+if option2 =='0':
+    print(option3)
+    a.append(Black)
+elif option2 == '1 ':
+    print(option3)
+    b.append(Brown)
+elif option2 == '2':
+    print(option3)
+    c.append(Red)
+elif option2 == '3':
+    print(option3)
+    d.append(Orange)
+elif option2 == '4':
+    print(option3)
+    e.append(Yellow)
+elif option2 == '5':
+    print(option3)
+    f.append(Green)
+elif option2 == '6':
+    print(option3)
+    g.append(Blue)
+elif option2 == '7':
+    print(option3)
+    h.append(Violet)
+elif option2 == '8':
+    print(option3)
+    i.append(Grey)
+elif option2 == '9':
+    print(option3)
+    j.append(White)
+
+#############################
+
+if option3=='0':
+    a.append('')
+    a.append(' ohms')
+    for iteml in range (0, len(a)):
+        print(a[iteml], end="")
+elif option3=='1':
+    b.append('0')
+    b.append(' ohms')
+    for item in range (0, len(b)):
+        print(b[item], end="")
+elif option3=='2':
+    c.append('00')
+    c.append(' ohms')
+    for item in range (0, len(c)):
+        print(c[item], end="")
+elif option3 =='3':
+    d.append('000')
+    d.append(' Kilo ohms')
+    for item in range (0, len(d)):
+        print(d[item], end="")
+elif option3=='4':
+    e.append('0000')
+    e.append(' Kilo ohms')
+    for item in range (0, len(e)):
+        print(e[item], end="")
+elif option3=='5':
+    f.append('00000')
+    f.append(' Mega ohms')
+    for item in range (0, len(f)):
+        print(f[item], end="")
+elif option3=='6':
+    g.append('000000')
+    g.append(' Mega ohms')
+    for item in range (0, len(g)):
+        print(g[item], end="")
+elif option3=='7':
+    h.append('0000000')
+    h.append(' Mega ohms')
+    for item in range (0, len(h)):
+        print(h[item], end="")
+elif option3=='8':
+    i.append('00000000')
+    i.append(' Mega ohms')
+    for item in range (0, len(i)):
+        print(i[item], end="")
+if option3=='9':
+    j.append('000000000')
+    j.append(' Mega ohms')
+    for item in range (0, len(j)):
+        print(j[item], end="")
